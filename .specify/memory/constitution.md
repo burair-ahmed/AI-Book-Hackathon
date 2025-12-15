@@ -1,55 +1,35 @@
-# [PROJECT_NAME] Constitution
-<!-- Example: Spec Constitution, TaskFlow Constitution, etc. -->
+# Constitution: Physical AI & Humanoid Robotics
 
-## Core Principles
+**Title:** "Physical AI & Humanoid Robotics: Embodied Intelligence in the Real World"  
+**System:** Spec-Kit Plus  
+**Implementation:** Claude Code  
+**Deployment:** Docusaurus on GitHub Pages  
 
-### [PRINCIPLE_1_NAME]
-<!-- Example: I. Library-First -->
-[PRINCIPLE_1_DESCRIPTION]
-<!-- Example: Every feature starts as a standalone library; Libraries must be self-contained, independently testable, documented; Clear purpose required - no organizational-only libraries -->
+## 1. Educational Philosophy
+*   **Bridge Software & Embodiment:** The book must bridge AI software systems with physical robotic embodiment.
+*   **Core Emphasis:** Emphasize embodied intelligence, real-world physics, and human-centered design.
+*   **Target Audience:** Assume readers already understand basic AI/ML concepts.
 
-### [PRINCIPLE_2_NAME]
-<!-- Example: II. CLI Interface -->
-[PRINCIPLE_2_DESCRIPTION]
-<!-- Example: Every library exposes functionality via CLI; Text in/out protocol: stdin/args → stdout, errors → stderr; Support JSON + human-readable formats -->
+## 2. Technical Standards
+*   **Middleware:** ROS 2 (Humble/Iron) is the canonical robotics middleware.
+*   **Platforms:** NVIDIA Isaac Sim, Isaac ROS, Gazebo, Unity, and Jetson are first-class platforms.
+*   **OS:** All examples must be Linux-first (Ubuntu 22.04).
 
-### [PRINCIPLE_3_NAME]
-<!-- Example: III. Test-First (NON-NEGOTIABLE) -->
-[PRINCIPLE_3_DESCRIPTION]
-<!-- Example: TDD mandatory: Tests written → User approved → Tests fail → Then implement; Red-Green-Refactor cycle strictly enforced -->
+## 3. Content Requirements
+*   **Module Structure:** Every module must include:
+    *   Conceptual theory
+    *   Architecture diagrams (described textually)
+    *   Code snippets (Python / ROS 2)
+    *   Simulation workflows
+    *   Real-world deployment notes
+*   **Capstone:** Capstone must integrate Vision-Language-Action (VLA).
 
-### [PRINCIPLE_4_NAME]
-<!-- Example: IV. Integration Testing -->
-[PRINCIPLE_4_DESCRIPTION]
-<!-- Example: Focus areas requiring integration tests: New library contract tests, Contract changes, Inter-service communication, Shared schemas -->
+## 4. Documentation & UX
+*   **Format:** Written in Markdown compatible with Docusaurus.
+*   **Tone:** Modern, clean, professional tone. No fluff, no marketing language.
+*   **Responsiveness:** Mobile-perfect responsive reading experience.
 
-### [PRINCIPLE_5_NAME]
-<!-- Example: V. Observability, VI. Versioning & Breaking Changes, VII. Simplicity -->
-[PRINCIPLE_5_DESCRIPTION]
-<!-- Example: Text I/O ensures debuggability; Structured logging required; Or: MAJOR.MINOR.BUILD format; Or: Start simple, YAGNI principles -->
-
-### [PRINCIPLE_6_NAME]
-
-
-[PRINCIPLE__DESCRIPTION]
-
-## [SECTION_2_NAME]
-<!-- Example: Additional Constraints, Security Requirements, Performance Standards, etc. -->
-
-[SECTION_2_CONTENT]
-<!-- Example: Technology stack requirements, compliance standards, deployment policies, etc. -->
-
-## [SECTION_3_NAME]
-<!-- Example: Development Workflow, Review Process, Quality Gates, etc. -->
-
-[SECTION_3_CONTENT]
-<!-- Example: Code review requirements, testing gates, deployment approval process, etc. -->
-
-## Governance
-<!-- Example: Constitution supersedes all other practices; Amendments require documentation, approval, migration plan -->
-
-[GOVERNANCE_RULES]
-<!-- Example: All PRs/reviews must verify compliance; Complexity must be justified; Use [GUIDANCE_FILE] for runtime development guidance -->
-
-**Version**: [CONSTITUTION_VERSION] | **Ratified**: [RATIFICATION_DATE] | **Last Amended**: [LAST_AMENDED_DATE]
-<!-- Example: Version: 2.1.1 | Ratified: 2025-06-13 | Last Amended: 2025-07-16 -->
+## 5. Output Discipline
+*   **Completeness:** No skipped steps.
+*   **Hardware:** No assumed hardware access.
+*   **Alternatives:** Explicit hardware alternatives (local vs cloud).

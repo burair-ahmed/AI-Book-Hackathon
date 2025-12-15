@@ -1,0 +1,147 @@
+{
+  "pluginId": "default",
+  "version": "current",
+  "label": "Next",
+  "banner": null,
+  "badge": false,
+  "noIndex": false,
+  "className": "docs-version-current",
+  "isLast": true,
+  "docsSidebars": {
+    "tutorialSidebar": [
+      {
+        "type": "link",
+        "label": "Introduction",
+        "href": "/physical-ai-textbook/docs/intro",
+        "docId": "intro",
+        "unlisted": false
+      },
+      {
+        "type": "category",
+        "label": "Module 1: Nervous System",
+        "items": [
+          {
+            "type": "link",
+            "label": "1. Foundations of Physical AI",
+            "href": "/physical-ai-textbook/docs/module-01-nervous-system/foundation-physical-ai",
+            "docId": "module-01-nervous-system/foundation-physical-ai",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "2. Nodes & Topics",
+            "href": "/physical-ai-textbook/docs/module-01-nervous-system/ros2-nodes",
+            "docId": "module-01-nervous-system/ros2-nodes",
+            "unlisted": false
+          }
+        ],
+        "collapsed": true,
+        "collapsible": true
+      },
+      {
+        "type": "category",
+        "label": "Module 2: Digital Twins",
+        "items": [
+          {
+            "type": "link",
+            "label": "3. Digital Twins (Gazebo)",
+            "href": "/physical-ai-textbook/docs/module-02-digital-twins/urdf-gazebo",
+            "docId": "module-02-digital-twins/urdf-gazebo",
+            "unlisted": false
+          }
+        ],
+        "collapsed": true,
+        "collapsible": true
+      },
+      {
+        "type": "category",
+        "label": "Module 3: Isaac Brain",
+        "items": [
+          {
+            "type": "link",
+            "label": "4. The Isaac Brain",
+            "href": "/physical-ai-textbook/docs/module-03-isaac-brain/isaac-ros",
+            "docId": "module-03-isaac-brain/isaac-ros",
+            "unlisted": false
+          }
+        ],
+        "collapsed": true,
+        "collapsible": true
+      },
+      {
+        "type": "category",
+        "label": "Module 4: VLA",
+        "items": [
+          {
+            "type": "link",
+            "label": "5. Vision-Language-Action",
+            "href": "/physical-ai-textbook/docs/module-04-vla/vla-control",
+            "docId": "module-04-vla/vla-control",
+            "unlisted": false
+          }
+        ],
+        "collapsed": true,
+        "collapsible": true
+      },
+      {
+        "type": "category",
+        "label": "Module 5: Capstone",
+        "items": [
+          {
+            "type": "link",
+            "label": "6. Capstone: The Autonomous Humanoid",
+            "href": "/physical-ai-textbook/docs/module-05-capstone/capstone",
+            "docId": "module-05-capstone/capstone",
+            "unlisted": false
+          }
+        ],
+        "collapsed": true,
+        "collapsible": true
+      }
+    ]
+  },
+  "docs": {
+    "intro": {
+      "id": "intro",
+      "title": "Introduction",
+      "description": "Welcome to Physical AI & Humanoid Robotics: Embodied Intelligence in the Real World.",
+      "sidebar": "tutorialSidebar"
+    },
+    "module-01-nervous-system/foundation-physical-ai": {
+      "id": "module-01-nervous-system/foundation-physical-ai",
+      "title": "1. Foundations of Physical AI",
+      "description": "\"Intelligence isn't just about processing data; it's about acting upon the world.\"",
+      "sidebar": "tutorialSidebar"
+    },
+    "module-01-nervous-system/ros2-nodes": {
+      "id": "module-01-nervous-system/ros2-nodes",
+      "title": "2. Nodes & Topics",
+      "description": "\"A robot is a graph of communicating processes.\"",
+      "sidebar": "tutorialSidebar"
+    },
+    "module-02-digital-twins/urdf-gazebo": {
+      "id": "module-02-digital-twins/urdf-gazebo",
+      "title": "3. Digital Twins (Gazebo)",
+      "description": "\"If it doesn't work in sim, it won't work in reality.\"",
+      "sidebar": "tutorialSidebar"
+    },
+    "module-03-isaac-brain/isaac-ros": {
+      "id": "module-03-isaac-brain/isaac-ros",
+      "title": "4. The Isaac Brain",
+      "description": "\"Perception is the bottleneck of autonomy.\"",
+      "sidebar": "tutorialSidebar"
+    },
+    "module-04-vla/vla-control": {
+      "id": "module-04-vla/vla-control",
+      "title": "5. Vision-Language-Action",
+      "description": "\"From 'Move to X' to 'Pick up the red apple'.\"",
+      "sidebar": "tutorialSidebar"
+    },
+    "module-05-capstone/capstone": {
+      "id": "module-05-capstone/capstone",
+      "title": "6. Capstone: The Autonomous Humanoid",
+      "description": "\"Bringing it all together.\"",
+      "sidebar": "tutorialSidebar"
+    }
+  }
+}

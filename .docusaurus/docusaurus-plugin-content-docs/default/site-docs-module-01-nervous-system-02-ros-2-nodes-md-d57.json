@@ -1,0 +1,28 @@
+{
+  "id": "module-01-nervous-system/ros2-nodes",
+  "title": "2. Nodes & Topics",
+  "description": "\"A robot is a graph of communicating processes.\"",
+  "source": "@site/docs/module-01-nervous-system/02-ros2-nodes.md",
+  "sourceDirName": "module-01-nervous-system",
+  "slug": "/module-01-nervous-system/ros2-nodes",
+  "permalink": "/physical-ai-textbook/docs/module-01-nervous-system/ros2-nodes",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "id": "ros2-nodes",
+    "title": "2. Nodes & Topics",
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "1. Foundations of Physical AI",
+    "permalink": "/physical-ai-textbook/docs/module-01-nervous-system/foundation-physical-ai"
+  },
+  "next": {
+    "title": "3. Digital Twins (Gazebo)",
+    "permalink": "/physical-ai-textbook/docs/module-02-digital-twins/urdf-gazebo"
+  }
+}
