@@ -8,13 +8,13 @@ const config: Config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://your-org.github.io',
+  url: 'https://burair-ahmed.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
-  baseUrl: '/physical-ai-textbook/',
+  baseUrl: '/AI-Book-Hackathon/',
 
   // GitHub pages deployment config.
-  organizationName: 'your-org',
-  projectName: 'physical-ai-textbook',
+  organizationName: 'burair-ahmed',
+  projectName: 'AI-Book-Hackathon',
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -56,7 +56,7 @@ const config: Config = {
           label: 'Textbook',
         },
         {
-          href: 'https://github.com/your-org/physical-ai-textbook',
+          href: 'https://github.com/burair-ahmed/AI-Book-Hackathon',
           label: 'GitHub',
           position: 'right',
         },

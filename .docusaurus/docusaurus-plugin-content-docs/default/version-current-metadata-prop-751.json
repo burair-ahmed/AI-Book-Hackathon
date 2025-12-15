@@ -12,7 +12,7 @@
       {
         "type": "link",
         "label": "Introduction",
-        "href": "/physical-ai-textbook/docs/intro",
+        "href": "/AI-Book-Hackathon/docs/intro",
         "docId": "intro",
         "unlisted": false
       },
@@ -23,14 +23,14 @@
           {
             "type": "link",
             "label": "1. Foundations of Physical AI",
-            "href": "/physical-ai-textbook/docs/module-01-nervous-system/foundation-physical-ai",
+            "href": "/AI-Book-Hackathon/docs/module-01-nervous-system/foundation-physical-ai",
             "docId": "module-01-nervous-system/foundation-physical-ai",
             "unlisted": false
           },
           {
             "type": "link",
             "label": "2. Nodes & Topics",
-            "href": "/physical-ai-textbook/docs/module-01-nervous-system/ros2-nodes",
+            "href": "/AI-Book-Hackathon/docs/module-01-nervous-system/ros2-nodes",
             "docId": "module-01-nervous-system/ros2-nodes",
             "unlisted": false
           }
@@ -45,7 +45,7 @@
           {
             "type": "link",
             "label": "3. Digital Twins (Gazebo)",
-            "href": "/physical-ai-textbook/docs/module-02-digital-twins/urdf-gazebo",
+            "href": "/AI-Book-Hackathon/docs/module-02-digital-twins/urdf-gazebo",
             "docId": "module-02-digital-twins/urdf-gazebo",
             "unlisted": false
           }
@@ -60,7 +60,7 @@
           {
             "type": "link",
             "label": "4. The Isaac Brain",
-            "href": "/physical-ai-textbook/docs/module-03-isaac-brain/isaac-ros",
+            "href": "/AI-Book-Hackathon/docs/module-03-isaac-brain/isaac-ros",
             "docId": "module-03-isaac-brain/isaac-ros",
             "unlisted": false
           }
@@ -75,7 +75,7 @@
           {
             "type": "link",
             "label": "5. Vision-Language-Action",
-            "href": "/physical-ai-textbook/docs/module-04-vla/vla-control",
+            "href": "/AI-Book-Hackathon/docs/module-04-vla/vla-control",
             "docId": "module-04-vla/vla-control",
             "unlisted": false
           }
@@ -90,7 +90,7 @@
           {
             "type": "link",
             "label": "6. Capstone: The Autonomous Humanoid",
-            "href": "/physical-ai-textbook/docs/module-05-capstone/capstone",
+            "href": "/AI-Book-Hackathon/docs/module-05-capstone/capstone",
             "docId": "module-05-capstone/capstone",
             "unlisted": false
           }

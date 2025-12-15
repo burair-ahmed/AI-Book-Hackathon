@@ -9,8 +9,8 @@
           "badge": false,
           "noIndex": false,
           "className": "docs-version-current",
-          "path": "/physical-ai-textbook/docs",
-          "tagsPath": "/physical-ai-textbook/docs/tags",
+          "path": "/AI-Book-Hackathon/docs",
+          "tagsPath": "/AI-Book-Hackathon/docs/tags",
           "isLast": true,
           "routePriority": -1,
           "sidebarFilePath": "C:\\Users\\Pc\\Desktop\\AI-Book-Hackathon\\sidebars.ts",
@@ -24,7 +24,7 @@
               "source": "@site/docs/intro.md",
               "sourceDirName": ".",
               "slug": "/intro",
-              "permalink": "/physical-ai-textbook/docs/intro",
+              "permalink": "/AI-Book-Hackathon/docs/intro",
               "draft": false,
               "unlisted": false,
               "tags": [],
@@ -38,7 +38,7 @@
               "sidebar": "tutorialSidebar",
               "next": {
                 "title": "1. Foundations of Physical AI",
-                "permalink": "/physical-ai-textbook/docs/module-01-nervous-system/foundation-physical-ai"
+                "permalink": "/AI-Book-Hackathon/docs/module-01-nervous-system/foundation-physical-ai"
               }
             },
             {
@@ -48,7 +48,7 @@
               "source": "@site/docs/module-01-nervous-system/01-foundations.md",
               "sourceDirName": "module-01-nervous-system",
               "slug": "/module-01-nervous-system/foundation-physical-ai",
-              "permalink": "/physical-ai-textbook/docs/module-01-nervous-system/foundation-physical-ai",
+              "permalink": "/AI-Book-Hackathon/docs/module-01-nervous-system/foundation-physical-ai",
               "draft": false,
               "unlisted": false,
               "tags": [],
@@ -62,11 +62,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Introduction",
-                "permalink": "/physical-ai-textbook/docs/intro"
+                "permalink": "/AI-Book-Hackathon/docs/intro"
               },
               "next": {
                 "title": "2. Nodes & Topics",
-                "permalink": "/physical-ai-textbook/docs/module-01-nervous-system/ros2-nodes"
+                "permalink": "/AI-Book-Hackathon/docs/module-01-nervous-system/ros2-nodes"
               }
             },
             {
@@ -76,7 +76,7 @@
               "source": "@site/docs/module-01-nervous-system/02-ros2-nodes.md",
               "sourceDirName": "module-01-nervous-system",
               "slug": "/module-01-nervous-system/ros2-nodes",
-              "permalink": "/physical-ai-textbook/docs/module-01-nervous-system/ros2-nodes",
+              "permalink": "/AI-Book-Hackathon/docs/module-01-nervous-system/ros2-nodes",
               "draft": false,
               "unlisted": false,
               "tags": [],
@@ -90,11 +90,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "1. Foundations of Physical AI",
-                "permalink": "/physical-ai-textbook/docs/module-01-nervous-system/foundation-physical-ai"
+                "permalink": "/AI-Book-Hackathon/docs/module-01-nervous-system/foundation-physical-ai"
               },
               "next": {
                 "title": "3. Digital Twins (Gazebo)",
-                "permalink": "/physical-ai-textbook/docs/module-02-digital-twins/urdf-gazebo"
+                "permalink": "/AI-Book-Hackathon/docs/module-02-digital-twins/urdf-gazebo"
               }
             },
             {
@@ -104,7 +104,7 @@
               "source": "@site/docs/module-02-digital-twins/01-urdf-gazebo.md",
               "sourceDirName": "module-02-digital-twins",
               "slug": "/module-02-digital-twins/urdf-gazebo",
-              "permalink": "/physical-ai-textbook/docs/module-02-digital-twins/urdf-gazebo",
+              "permalink": "/AI-Book-Hackathon/docs/module-02-digital-twins/urdf-gazebo",
               "draft": false,
               "unlisted": false,
               "tags": [],
@@ -118,11 +118,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "2. Nodes & Topics",
-                "permalink": "/physical-ai-textbook/docs/module-01-nervous-system/ros2-nodes"
+                "permalink": "/AI-Book-Hackathon/docs/module-01-nervous-system/ros2-nodes"
               },
               "next": {
                 "title": "4. The Isaac Brain",
-                "permalink": "/physical-ai-textbook/docs/module-03-isaac-brain/isaac-ros"
+                "permalink": "/AI-Book-Hackathon/docs/module-03-isaac-brain/isaac-ros"
               }
             },
             {
@@ -132,7 +132,7 @@
               "source": "@site/docs/module-03-isaac-brain/01-isaac-ros.md",
               "sourceDirName": "module-03-isaac-brain",
               "slug": "/module-03-isaac-brain/isaac-ros",
-              "permalink": "/physical-ai-textbook/docs/module-03-isaac-brain/isaac-ros",
+              "permalink": "/AI-Book-Hackathon/docs/module-03-isaac-brain/isaac-ros",
               "draft": false,
               "unlisted": false,
               "tags": [],
@@ -146,11 +146,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "3. Digital Twins (Gazebo)",
-                "permalink": "/physical-ai-textbook/docs/module-02-digital-twins/urdf-gazebo"
+                "permalink": "/AI-Book-Hackathon/docs/module-02-digital-twins/urdf-gazebo"
               },
               "next": {
                 "title": "5. Vision-Language-Action",
-                "permalink": "/physical-ai-textbook/docs/module-04-vla/vla-control"
+                "permalink": "/AI-Book-Hackathon/docs/module-04-vla/vla-control"
               }
             },
             {
@@ -160,7 +160,7 @@
               "source": "@site/docs/module-04-vla/01-vla-control.md",
               "sourceDirName": "module-04-vla",
               "slug": "/module-04-vla/vla-control",
-              "permalink": "/physical-ai-textbook/docs/module-04-vla/vla-control",
+              "permalink": "/AI-Book-Hackathon/docs/module-04-vla/vla-control",
               "draft": false,
               "unlisted": false,
               "tags": [],
@@ -174,11 +174,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "4. The Isaac Brain",
-                "permalink": "/physical-ai-textbook/docs/module-03-isaac-brain/isaac-ros"
+                "permalink": "/AI-Book-Hackathon/docs/module-03-isaac-brain/isaac-ros"
               },
               "next": {
                 "title": "6. Capstone: The Autonomous Humanoid",
-                "permalink": "/physical-ai-textbook/docs/module-05-capstone/capstone"
+                "permalink": "/AI-Book-Hackathon/docs/module-05-capstone/capstone"
               }
             },
             {
@@ -188,7 +188,7 @@
               "source": "@site/docs/module-05-capstone/01-capstone.md",
               "sourceDirName": "module-05-capstone",
               "slug": "/module-05-capstone/capstone",
-              "permalink": "/physical-ai-textbook/docs/module-05-capstone/capstone",
+              "permalink": "/AI-Book-Hackathon/docs/module-05-capstone/capstone",
               "draft": false,
               "unlisted": false,
               "tags": [],
@@ -202,7 +202,7 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "5. Vision-Language-Action",
-                "permalink": "/physical-ai-textbook/docs/module-04-vla/vla-control"
+                "permalink": "/AI-Book-Hackathon/docs/module-04-vla/vla-control"
               }
             }
           ],
@@ -284,7 +284,13 @@
     }
   },
   "docusaurus-plugin-content-pages": {
-    "default": null
+    "default": [
+      {
+        "type": "jsx",
+        "permalink": "/AI-Book-Hackathon/",
+        "source": "@site/src/pages/index.tsx"
+      }
+    ]
   },
   "docusaurus-plugin-debug": {},
   "docusaurus-theme-classic": {},

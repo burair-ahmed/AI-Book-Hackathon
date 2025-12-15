@@ -3,91 +3,91 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 
 export default [
   {
-    path: '/physical-ai-textbook/__docusaurus/debug',
-    component: ComponentCreator('/physical-ai-textbook/__docusaurus/debug', 'b91'),
+    path: '/AI-Book-Hackathon/__docusaurus/debug',
+    component: ComponentCreator('/AI-Book-Hackathon/__docusaurus/debug', '838'),
     exact: true
   },
   {
-    path: '/physical-ai-textbook/__docusaurus/debug/config',
-    component: ComponentCreator('/physical-ai-textbook/__docusaurus/debug/config', '992'),
+    path: '/AI-Book-Hackathon/__docusaurus/debug/config',
+    component: ComponentCreator('/AI-Book-Hackathon/__docusaurus/debug/config', 'd1a'),
     exact: true
   },
   {
-    path: '/physical-ai-textbook/__docusaurus/debug/content',
-    component: ComponentCreator('/physical-ai-textbook/__docusaurus/debug/content', 'f3c'),
+    path: '/AI-Book-Hackathon/__docusaurus/debug/content',
+    component: ComponentCreator('/AI-Book-Hackathon/__docusaurus/debug/content', '291'),
     exact: true
   },
   {
-    path: '/physical-ai-textbook/__docusaurus/debug/globalData',
-    component: ComponentCreator('/physical-ai-textbook/__docusaurus/debug/globalData', 'e4e'),
+    path: '/AI-Book-Hackathon/__docusaurus/debug/globalData',
+    component: ComponentCreator('/AI-Book-Hackathon/__docusaurus/debug/globalData', '692'),
     exact: true
   },
   {
-    path: '/physical-ai-textbook/__docusaurus/debug/metadata',
-    component: ComponentCreator('/physical-ai-textbook/__docusaurus/debug/metadata', '5b8'),
+    path: '/AI-Book-Hackathon/__docusaurus/debug/metadata',
+    component: ComponentCreator('/AI-Book-Hackathon/__docusaurus/debug/metadata', 'ef4'),
     exact: true
   },
   {
-    path: '/physical-ai-textbook/__docusaurus/debug/registry',
-    component: ComponentCreator('/physical-ai-textbook/__docusaurus/debug/registry', 'e4d'),
+    path: '/AI-Book-Hackathon/__docusaurus/debug/registry',
+    component: ComponentCreator('/AI-Book-Hackathon/__docusaurus/debug/registry', '99b'),
     exact: true
   },
   {
-    path: '/physical-ai-textbook/__docusaurus/debug/routes',
-    component: ComponentCreator('/physical-ai-textbook/__docusaurus/debug/routes', '500'),
+    path: '/AI-Book-Hackathon/__docusaurus/debug/routes',
+    component: ComponentCreator('/AI-Book-Hackathon/__docusaurus/debug/routes', '88b'),
     exact: true
   },
   {
-    path: '/physical-ai-textbook/docs',
-    component: ComponentCreator('/physical-ai-textbook/docs', '33f'),
+    path: '/AI-Book-Hackathon/docs',
+    component: ComponentCreator('/AI-Book-Hackathon/docs', '34d'),
     routes: [
       {
-        path: '/physical-ai-textbook/docs',
-        component: ComponentCreator('/physical-ai-textbook/docs', '150'),
+        path: '/AI-Book-Hackathon/docs',
+        component: ComponentCreator('/AI-Book-Hackathon/docs', '67f'),
         routes: [
           {
-            path: '/physical-ai-textbook/docs',
-            component: ComponentCreator('/physical-ai-textbook/docs', '860'),
+            path: '/AI-Book-Hackathon/docs',
+            component: ComponentCreator('/AI-Book-Hackathon/docs', '286'),
             routes: [
               {
-                path: '/physical-ai-textbook/docs/intro',
-                component: ComponentCreator('/physical-ai-textbook/docs/intro', '83d'),
+                path: '/AI-Book-Hackathon/docs/intro',
+                component: ComponentCreator('/AI-Book-Hackathon/docs/intro', '6dc'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/physical-ai-textbook/docs/module-01-nervous-system/foundation-physical-ai',
-                component: ComponentCreator('/physical-ai-textbook/docs/module-01-nervous-system/foundation-physical-ai', 'f82'),
+                path: '/AI-Book-Hackathon/docs/module-01-nervous-system/foundation-physical-ai',
+                component: ComponentCreator('/AI-Book-Hackathon/docs/module-01-nervous-system/foundation-physical-ai', '0cf'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/physical-ai-textbook/docs/module-01-nervous-system/ros2-nodes',
-                component: ComponentCreator('/physical-ai-textbook/docs/module-01-nervous-system/ros2-nodes', 'd08'),
+                path: '/AI-Book-Hackathon/docs/module-01-nervous-system/ros2-nodes',
+                component: ComponentCreator('/AI-Book-Hackathon/docs/module-01-nervous-system/ros2-nodes', '096'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/physical-ai-textbook/docs/module-02-digital-twins/urdf-gazebo',
-                component: ComponentCreator('/physical-ai-textbook/docs/module-02-digital-twins/urdf-gazebo', 'e59'),
+                path: '/AI-Book-Hackathon/docs/module-02-digital-twins/urdf-gazebo',
+                component: ComponentCreator('/AI-Book-Hackathon/docs/module-02-digital-twins/urdf-gazebo', '07b'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/physical-ai-textbook/docs/module-03-isaac-brain/isaac-ros',
-                component: ComponentCreator('/physical-ai-textbook/docs/module-03-isaac-brain/isaac-ros', 'f60'),
+                path: '/AI-Book-Hackathon/docs/module-03-isaac-brain/isaac-ros',
+                component: ComponentCreator('/AI-Book-Hackathon/docs/module-03-isaac-brain/isaac-ros', '8d2'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/physical-ai-textbook/docs/module-04-vla/vla-control',
-                component: ComponentCreator('/physical-ai-textbook/docs/module-04-vla/vla-control', '2c2'),
+                path: '/AI-Book-Hackathon/docs/module-04-vla/vla-control',
+                component: ComponentCreator('/AI-Book-Hackathon/docs/module-04-vla/vla-control', '192'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/physical-ai-textbook/docs/module-05-capstone/capstone',
-                component: ComponentCreator('/physical-ai-textbook/docs/module-05-capstone/capstone', '12e'),
+                path: '/AI-Book-Hackathon/docs/module-05-capstone/capstone',
+                component: ComponentCreator('/AI-Book-Hackathon/docs/module-05-capstone/capstone', 'a0a'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               }
@@ -96,6 +96,11 @@ export default [
         ]
       }
     ]
+  },
+  {
+    path: '/AI-Book-Hackathon/',
+    component: ComponentCreator('/AI-Book-Hackathon/', '413'),
+    exact: true
   },
   {
     path: '*',

@@ -2,6 +2,10 @@
   "name": "physical-ai-textbook",
   "version": "0.0.0",
   "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/burair-ahmed/AI-Book-Hackathon.git"
+  },
   "scripts": {
     "docusaurus": "docusaurus",
     "start": "docusaurus start",

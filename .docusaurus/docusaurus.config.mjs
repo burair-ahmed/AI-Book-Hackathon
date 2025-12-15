@@ -7,10 +7,10 @@ export default {
   "title": "Physical AI & Humanoid Robotics",
   "tagline": "Embodied Intelligence in the Real World",
   "favicon": "img/favicon.ico",
-  "url": "https://your-org.github.io",
-  "baseUrl": "/physical-ai-textbook/",
-  "organizationName": "your-org",
-  "projectName": "physical-ai-textbook",
+  "url": "https://burair-ahmed.github.io",
+  "baseUrl": "/AI-Book-Hackathon/",
+  "organizationName": "burair-ahmed",
+  "projectName": "AI-Book-Hackathon",
   "onBrokenLinks": "throw",
   "onBrokenMarkdownLinks": "warn",
   "i18n": {
@@ -51,7 +51,7 @@ export default {
           "label": "Textbook"
         },
         {
-          "href": "https://github.com/your-org/physical-ai-textbook",
+          "href": "https://github.com/burair-ahmed/AI-Book-Hackathon",
           "label": "GitHub",
           "position": "right"
         }

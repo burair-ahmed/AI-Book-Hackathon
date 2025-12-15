@@ -5,7 +5,7 @@
   "source": "@site/docs/intro.md",
   "sourceDirName": ".",
   "slug": "/intro",
-  "permalink": "/physical-ai-textbook/docs/intro",
+  "permalink": "/AI-Book-Hackathon/docs/intro",
   "draft": false,
   "unlisted": false,
   "tags": [],
@@ -19,6 +19,6 @@
   "sidebar": "tutorialSidebar",
   "next": {
     "title": "1. Foundations of Physical AI",
-    "permalink": "/physical-ai-textbook/docs/module-01-nervous-system/foundation-physical-ai"
+    "permalink": "/AI-Book-Hackathon/docs/module-01-nervous-system/foundation-physical-ai"
   }
 }

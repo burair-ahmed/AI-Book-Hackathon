@@ -1,48 +1,48 @@
 {
   "docusaurus-plugin-content-docs": {
     "default": {
-      "path": "/physical-ai-textbook/docs",
+      "path": "/AI-Book-Hackathon/docs",
       "versions": [
         {
           "name": "current",
           "label": "Next",
           "isLast": true,
-          "path": "/physical-ai-textbook/docs",
+          "path": "/AI-Book-Hackathon/docs",
           "mainDocId": "intro",
           "docs": [
             {
               "id": "intro",
-              "path": "/physical-ai-textbook/docs/intro",
+              "path": "/AI-Book-Hackathon/docs/intro",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "module-01-nervous-system/foundation-physical-ai",
-              "path": "/physical-ai-textbook/docs/module-01-nervous-system/foundation-physical-ai",
+              "path": "/AI-Book-Hackathon/docs/module-01-nervous-system/foundation-physical-ai",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "module-01-nervous-system/ros2-nodes",
-              "path": "/physical-ai-textbook/docs/module-01-nervous-system/ros2-nodes",
+              "path": "/AI-Book-Hackathon/docs/module-01-nervous-system/ros2-nodes",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "module-02-digital-twins/urdf-gazebo",
-              "path": "/physical-ai-textbook/docs/module-02-digital-twins/urdf-gazebo",
+              "path": "/AI-Book-Hackathon/docs/module-02-digital-twins/urdf-gazebo",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "module-03-isaac-brain/isaac-ros",
-              "path": "/physical-ai-textbook/docs/module-03-isaac-brain/isaac-ros",
+              "path": "/AI-Book-Hackathon/docs/module-03-isaac-brain/isaac-ros",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "module-04-vla/vla-control",
-              "path": "/physical-ai-textbook/docs/module-04-vla/vla-control",
+              "path": "/AI-Book-Hackathon/docs/module-04-vla/vla-control",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "module-05-capstone/capstone",
-              "path": "/physical-ai-textbook/docs/module-05-capstone/capstone",
+              "path": "/AI-Book-Hackathon/docs/module-05-capstone/capstone",
               "sidebar": "tutorialSidebar"
             }
           ],
@@ -50,7 +50,7 @@
           "sidebars": {
             "tutorialSidebar": {
               "link": {
-                "path": "/physical-ai-textbook/docs/intro",
+                "path": "/AI-Book-Hackathon/docs/intro",
                 "label": "intro"
               }
             }
