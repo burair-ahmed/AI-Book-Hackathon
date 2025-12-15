@@ -1,0 +1,155 @@
+.chatContainer {
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    z-index: 1000;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    font-family: var(--ifm-font-family-base);
+}
+
+.toggleButton {
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 50%;
+    background-color: var(--ifm-color-primary);
+    color: white;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.2s;
+}
+
+.toggleButton:hover {
+    transform: scale(1.05);
+}
+
+.window {
+    width: 380px;
+    height: 600px;
+    background: var(--ifm-background-surface-color);
+    border: 1px solid var(--ifm-color-emphasis-200);
+    border-radius: 12px;
+    margin-bottom: 1rem;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    transition: opacity 0.2s, transform 0.2s;
+}
+
+.window.hidden {
+    opacity: 0;
+    transform: translateY(20px);
+    pointer-events: none;
+    display: none;
+    /* simple hide */
+}
+
+.header {
+    padding: 1rem;
+    background: var(--ifm-color-primary);
+    color: white;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.messages {
+    flex: 1;
+    padding: 1rem;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    background: var(--ifm-background-color);
+}
+
+.message {
+    padding: 0.75rem;
+    border-radius: 8px;
+    max-width: 85%;
+    line-height: 1.5;
+    font-size: 0.9rem;
+}
+
+.user {
+    align-self: flex-end;
+    background: var(--ifm-color-primary-lightest);
+    color: var(--ifm-color-black);
+}
+
+/* Dark mode adjustment for user bubble text if needed */
+[data-theme='dark'] .user {
+    color: #000;
+}
+
+.assistant {
+    align-self: flex-start;
+    background: var(--ifm-color-emphasis-100);
+    border: 1px solid var(--ifm-color-emphasis-200);
+}
+
+.inputArea {
+    padding: 1rem;
+    border-top: 1px solid var(--ifm-color-emphasis-200);
+    background: var(--ifm-background-surface-color);
+}
+
+.form {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.input {
+    flex: 1;
+    padding: 0.75rem;
+    border-radius: 8px;
+    border: 1px solid var(--ifm-color-emphasis-300);
+    background: var(--ifm-background-color);
+    color: var(--ifm-font-color-base);
+}
+
+.sendButton {
+    padding: 0.5rem 1rem;
+    background: var(--ifm-color-primary);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.selectionBanner {
+    background: var(--ifm-color-warning-lightest);
+    border-bottom: 1px solid var(--ifm-color-warning);
+    padding: 0.5rem;
+    font-size: 0.8rem;
+    color: var(--ifm-color-warning-darker);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.clearSelection {
+    background: none;
+    border: none;
+    color: var(--ifm-color-warning-dark);
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+@media (max-width: 480px) {
+    .window {
+        width: calc(100vw - 2rem);
+        height: 60vh;
+        right: 1rem;
+        left: 1rem;
+    }
+}
